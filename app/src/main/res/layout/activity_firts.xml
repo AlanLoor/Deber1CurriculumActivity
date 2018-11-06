@@ -85,8 +85,8 @@
 
     <android.support.v7.widget.GridLayout
         android:id="@+id/PanelTexto"
-        android:layout_width="278dp"
-        android:layout_height="85dp"
+        android:layout_width="268dp"
+        android:layout_height="87dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -97,13 +97,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.643"
+        app:layout_constraintVertical_bias="0.669"
         tools:ignore="MissingConstraints">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="284dp"
-            android:orientation="vertical">
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_column="0"
+            app:layout_row="0">
 
             <TextView
                 android:id="@+id/txtCedula"
@@ -173,8 +175,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="317dp"
-        android:layout_height="164dp"
+        android:layout_width="202dp"
+        android:layout_height="200dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -183,34 +185,11 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtNombre"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/AlanCurriculumVitae"
+        app:srcCompat="@drawable/alan_curriculum"
         tools:ignore="MissingConstraints,VectorDrawableCompat" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="269dp"
-        android:layout_height="20dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="➨Datos Personales"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.106"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.016"
-        tools:fontFamily="monospace"
-        tools:style="@style/Widget.AppCompat.TextView.SpinnerItem"
-        tools:textSize="18sp" />
 
 
 </android.support.constraint.ConstraintLayout>
