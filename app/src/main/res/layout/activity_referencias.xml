@@ -8,8 +8,8 @@
 
     <android.support.v7.widget.GridLayout
         android:id="@+id/GridBdeDatos"
-        android:layout_width="368dp"
-        android:layout_height="74dp"
+        android:layout_width="255dp"
+        android:layout_height="47dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -18,10 +18,10 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.869">
+        app:layout_constraintVertical_bias="0.553">
 
         <TextView
             android:id="@+id/txtPostgresql"
@@ -43,8 +43,8 @@
 
     <android.support.v7.widget.GridLayout
         android:id="@+id/GridPaqueteOfice"
-        android:layout_width="368dp"
-        android:layout_height="38dp"
+        android:layout_width="300dp"
+        android:layout_height="37dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -53,15 +53,15 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.181"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.159">
+        app:layout_constraintVertical_bias="0.111">
 
         <TextView
             android:id="@+id/txtExcel"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="295dp"
+            android:layout_height="19dp"
             android:text="Ocupación : Supervisor Regional de Ventas Grupo Open"
             android:textSize="14sp" />
 
@@ -78,7 +78,7 @@
 
     <android.support.v7.widget.GridLayout
         android:id="@+id/GridLenguajeProgramacion"
-        android:layout_width="368dp"
+        android:layout_width="319dp"
         android:layout_height="40dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -88,15 +88,15 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498">
+        app:layout_constraintVertical_bias="0.323">
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="320dp"
+            android:layout_height="19dp"
             android:text="Ocupación : Asistente de Recursos Humanos « SIZUS S.A. »"
             android:textSize="14sp" />
 
@@ -128,12 +128,13 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.721" />
+        app:layout_constraintVertical_bias="0.466"
+        tools:style="@style/Widget.AppCompat.TextView.SpinnerItem" />
 
     <TextView
         android:id="@+id/txtLenguajesP2"
-        android:layout_width="367dp"
-        android:layout_height="48dp"
+        android:layout_width="230dp"
+        android:layout_height="33dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -147,11 +148,12 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.38" />
+        app:layout_constraintVertical_bias="0.246"
+        tools:style="@style/Widget.AppCompat.TextView.SpinnerItem" />
 
     <TextView
         android:id="@+id/txtProgramasManejados2"
-        android:layout_width="370dp"
+        android:layout_width="276dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -166,12 +168,13 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.041" />
+        app:layout_constraintVertical_bias="0.041"
+        tools:style="@style/Widget.AppCompat.TextView.SpinnerItem" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="2"
         android:layout_margin="11dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -186,14 +189,13 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.647"
+        app:layout_constraintVertical_bias="0.419"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_margin="11dp"
+        android:layout_width="0dp"
+        android:layout_height="2"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -207,6 +209,6 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.325"
+        app:layout_constraintVertical_bias="0.202"
         tools:ignore="MissingConstraints" />
 </android.support.constraint.ConstraintLayout>

@@ -6,19 +6,118 @@
     android:layout_height="match_parent"
     tools:context=".ExperienciaActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="Experiencia"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/GridEmp1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="160dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/LinerLayoutEmp1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtEmp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ROMANCEL (360SP CALL CENTER) outsourcing "
+                tools:style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtOcupacionEmp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ocupación:              Mantenimiento y Soporte de Equipo." />
+
+            <TextView
+                android:id="@+id/txtTiempoE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiempo :                   3 meses" />
+
+            <TextView
+                android:id="@+id/txtTareasE1"
+                android:layout_width="match_parent"
+                android:layout_height="19dp"
+                android:text="Tareas realizadas: 	Instalación y configuración de programas." />
+
+            <TextView
+                android:id="@+id/txtTareasE2"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="                   (Sistemas Operativos, Paquete Office, Programa IPCM)." />
+
+            <TextView
+                android:id="@+id/txtTareasE3"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="             Instalación y configuración de Base de Datos (SQL Server)" />
+
+        </LinearLayout>
+    </android.support.v7.widget.GridLayout>
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/GridPracticas"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <LinearLayout
+            android:id="@+id/LinerLayoutPracticas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtPracticas1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Practicas Empresariales: TRANSNAVE S.A."
+                tools:style="@style/Widget.AppCompat.TextView.SpinnerItem"/>
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txtAreaP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Área:                         Área de Pagaduría." />
+
+            <TextView
+                android:id="@+id/txtTiempoP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiempo:                    1 Mes" />
+
+            <TextView
+                android:id="@+id/txtTareasP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tareas realizadas: Revisión de Facturas." />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="                                   Revisión de Roles de Pagos. " />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="                                   Ingreso de Facturas al Sistema. " />
+
+        </LinearLayout>
+    </android.support.v7.widget.GridLayout>
 </android.support.constraint.ConstraintLayout>

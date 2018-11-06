@@ -19,7 +19,11 @@
         <activity android:name=".EstudiosActivity" />
         <activity android:name=".ExperienciaActivity" />
         <activity android:name=".ConocimientosActivity" />
-        <activity android:name=".ReferenciasActivity"></activity>
+        <activity android:name=".ReferenciasActivity" />
+        <activity
+            android:name=".sdsd"
+            android:label="@string/title_activity_sdsd"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
